@@ -1,5 +1,5 @@
 /*
-Extracts a part of the String between start index and end index
+Joins multiple strings using a separator (delimiter).
 */
 
 public class joinString {
@@ -11,4 +11,4 @@ public class joinString {
 
 }
 
-//output: ineer
+//output: Imperial Collage Of Engineering
