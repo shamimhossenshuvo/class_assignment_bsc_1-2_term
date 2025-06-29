@@ -1,5 +1,5 @@
 /*
-Checks if entire String matches regex pattern
+check is the string Starts with a given word
 */
 
 
