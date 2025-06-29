@@ -1,5 +1,5 @@
 /*
-compare to String alphabetically
+same as compareTo() but ignore case (capital/small)
 */
 
 public class CompareToIgnoreCase {
@@ -14,4 +14,4 @@ public class CompareToIgnoreCase {
 
 }
 
-//Output: 14
+//Output: 0
