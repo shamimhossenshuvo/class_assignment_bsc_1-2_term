@@ -1,5 +1,5 @@
 /*
-Joins multiple strings using a separator (delimiter).
+only the first thing thar matches the regex is changed
 */
 
 public class sixReplaceFirst{
@@ -9,4 +9,4 @@ public class sixReplaceFirst{
     }
 }
 
-//output: Imperial Collage Of Engineering
+//output: ***-456-789
