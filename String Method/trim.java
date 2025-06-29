@@ -1,14 +1,14 @@
 /*
-indicates where a character first occurs in a String
+remove extra space from begainning and end
 */
 
 public class trim {
  public static void main(String[] args) {
 
-   String s = "";
-   System.out.println(s.indexOf("u"));
+   String s = " Shuvo is Programmer ";
+   System.out.println(s.trim());
  }
 
 }
 
-//Output: 2
+//Output: "Shuvo is Programmer"
