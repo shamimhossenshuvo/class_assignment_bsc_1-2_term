@@ -11,22 +11,18 @@ public class Main {
         System.out.println("What do your operation: ");
         char operation = input.next().charAt(0);
 
-        System.out.println(num);
-        System.out.println(num2);
-        System.out.println(operation);
-
         if (operation == '-') {
             int sub = num - num2;
-            System.out.println(sub);
+            System.out.println(num + "" + operation + "" + num2 + " = " + sub);
         } else if (operation == '+') {
             int add = num + num2;
-            System.out.println(add);
+            System.out.println(num + "" + operation + "" + num2 + " = " +add);
         } else if (operation == '*') {
             int mul = num * num2;
-            System.out.println(mul);
+            System.out.println(num + "" + operation + "" + num2 + " = " +mul);
         } else {
         float div = num / num2;
-        System.out.println(div);
+        System.out.println(num + "" + operation + "" + num2 + " = " +div);
         input.close();
     }
 }
